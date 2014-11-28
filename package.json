@@ -1,0 +1,37 @@
+{
+  "name": "gulp-browserify-wrap",
+  "version": "0.1.0",
+  "description": "Gulp plugin that allows the use of browserify transforms in a gulp pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/call-a3/gulp-browserify-wrap.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "browserify-transform"
+  ],
+  "author": "Adriaan Callaerts <adriaan.callaerts@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/call-a3/gulp-browserify-wrap/issues"
+  },
+  "homepage": "https://github.com/call-a3/gulp-browserify-wrap",
+  "dependencies": {
+    "stream-buffers": "^1.1.0",
+    "through2": "^0.6.3",
+    "vinyl-sourcemaps-apply": "^0.1.4"
+  },
+  "devDependencies": {
+    "buffer-equal": "0.0.1",
+    "glob": "^4.2.1",
+    "stream-equal": "^0.1.5",
+    "tap-spec": "^2.1.0",
+    "tape": "^3.0.3",
+    "vinyl": "^0.4.5"
+  }
+}
